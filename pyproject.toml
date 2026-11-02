@@ -5,11 +5,14 @@ description = ""
 authors = [
     {name = "Giancarlos Alexander Pillco Castro",email = "pillcog@gmail.com"}
 ]
-requires-python = ">=3.14"
+requires-python = ">=3.11,<4.0"
 dependencies = [
     "google-adk (>=2.13.0,<3.0.0)",
     "python-dotenv (>=1.2.4,<2.0.0)"
 ]
+
+[tool.poetry]
+packages = [{ include = "agente_ucv" }]
 
 
 [build-system]
